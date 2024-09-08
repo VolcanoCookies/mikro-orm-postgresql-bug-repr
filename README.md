@@ -11,3 +11,11 @@ This repository serves as a base reproduction example, it contains basic setup w
 - Duplication in tests is fine, better than complex abstractions.
 - Comments are fine, asserts are better!
 - If the problem is not driver specific, use in-memory SQLite database.
+
+## Usage
+
+* Open as a devcontainer so that a postgresql database is ran.
+* `npm install`
+* `npm run test`
+
+3 out of 4 tests should fail, we would expect all to pass.
